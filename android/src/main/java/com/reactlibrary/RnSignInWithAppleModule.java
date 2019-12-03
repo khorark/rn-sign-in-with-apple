@@ -9,6 +9,7 @@ import com.facebook.react.bridge.Promise;
 public class RnSignInWithAppleModule extends ReactContextBaseJavaModule {
 
     private final ReactApplicationContext reactContext;
+    private static final String E_MODULE_ERROR = "E_MODULE_ERROR";
 
     public RnSignInWithAppleModule(ReactApplicationContext reactContext) {
         super(reactContext);
@@ -28,6 +29,6 @@ public class RnSignInWithAppleModule extends ReactContextBaseJavaModule {
 
     @ReactMethod
     public void login(Promise promise) {
-        promise.resolve("Not supported");
+        promise.reject(E_MODULE_ERROR, "Module not supported Android");
     }
 }
