@@ -1,0 +1,33 @@
+{
+  "name": "rn-sign-in-with-apple",
+  "title": "React Native Rn Sign In With Apple",
+  "version": "1.0.0",
+  "description": "TODO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khorark/rn-sign-in-with-apple.git",
+    "baseUrl": "https://github.com/khorark/rn-sign-in-with-apple"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "Khoroshikh Arkadiy",
+    "email": "khorark@gmail.com"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.59.0-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "react": "^16.8.3",
+    "react-native": "^0.59.10"
+  }
+}
