@@ -1,7 +1,9 @@
-#import "RnSignInWithApple.h"
-#import "React/RCTBridgeModule.h"
+#import <Foundation/Foundation.h>
 
-@interface RCT_EXTERN_MODULE(RnSignInWithApple, NSObject)
+#import "React/RCTBridgeModule.h"
+#import "RCTSwiftBridgeModule.h"
+
+@interface RCT_EXTERN_SWIFT_MODULE(RnSignInWithApple)
 
 RCT_EXTERN_METHOD(
    login: (RCTPromiseResolveBlock)resolve
