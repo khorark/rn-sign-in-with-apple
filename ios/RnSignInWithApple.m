@@ -1,4 +1,4 @@
-#import "RnSignInWithAppleBridge.h"
+#import "RnSignInWithApple.h"
 #import "React/RCTBridgeModule.h"
 
 @interface RCT_EXTERN_MODULE(RnSignInWithApple, NSObject)
@@ -9,4 +9,3 @@ RCT_EXTERN_METHOD(
 )
 
 @end
-
