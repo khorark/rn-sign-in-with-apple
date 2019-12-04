@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B3E7B58A1CC2AC0600A0062D /* RnSignInWithApple.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RnSignInWithApple.m */; };
+		B3E7B58A1CC2AC0600A0062D /* RnSignInWithAppleBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RnSignInWithAppleBridge.m */; };
 		D53D8F8E2397DC72001FF2EC /* RnSignInWithApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53D8F8D2397DC72001FF2EC /* RnSignInWithApple.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,8 +25,8 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRnSignInWithApple.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRnSignInWithApple.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3E7B5881CC2AC0600A0062D /* RnSignInWithApple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RnSignInWithApple.h; sourceTree = "<group>"; };
-		B3E7B5891CC2AC0600A0062D /* RnSignInWithApple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RnSignInWithApple.m; sourceTree = "<group>"; };
+		B3E7B5881CC2AC0600A0062D /* RnSignInWithAppleBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RnSignInWithAppleBridge.h; sourceTree = "<group>"; };
+		B3E7B5891CC2AC0600A0062D /* RnSignInWithAppleBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RnSignInWithAppleBridge.m; sourceTree = "<group>"; };
 		D53D8F8C2397DC71001FF2EC /* RnSignInWithApple-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RnSignInWithApple-Bridging-Header.h"; sourceTree = "<group>"; };
 		D53D8F8D2397DC72001FF2EC /* RnSignInWithApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RnSignInWithApple.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,8 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				D53D8F8D2397DC72001FF2EC /* RnSignInWithApple.swift */,
-				B3E7B5881CC2AC0600A0062D /* RnSignInWithApple.h */,
-				B3E7B5891CC2AC0600A0062D /* RnSignInWithApple.m */,
+				B3E7B5881CC2AC0600A0062D /* RnSignInWithAppleBridge.h */,
+				B3E7B5891CC2AC0600A0062D /* RnSignInWithAppleBridge.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 				D53D8F8C2397DC71001FF2EC /* RnSignInWithApple-Bridging-Header.h */,
 			);
@@ -120,7 +120,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D53D8F8E2397DC72001FF2EC /* RnSignInWithApple.swift in Sources */,
-				B3E7B58A1CC2AC0600A0062D /* RnSignInWithApple.m in Sources */,
+				B3E7B58A1CC2AC0600A0062D /* RnSignInWithAppleBridge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
